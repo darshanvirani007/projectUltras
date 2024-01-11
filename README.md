@@ -8,7 +8,6 @@ Welcome to Ultras, a modern and user-friendly T-shirt selling website developed 
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -16,7 +15,7 @@ Ultras is a dynamic e-commerce platform where users can explore, purchase, and e
 
 ## Features
 
-- **Browse and Search:** Explore a wide range of trendy T-shirts and use the search functionality to find specific designs.
+- **Browse and Search:** Explore a wide range of Ultras T-shirts and use the search functionality to find specific designs.
 - **User Authentication:** Create an account, log in, and enjoy a personalized shopping experience.
 - **Shopping Cart:** Add T-shirts to your cart, review your selections, and proceed to secure checkout.
 - **Customization:** Customize your T-shirts with various colors, sizes, and design options.
@@ -29,8 +28,8 @@ Follow these steps to get the project up and running on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/trendy-tees.git
-   cd trendy-tees
+   git clone https://github.com/darshanvirani007/projectUltras.git
+   cd projectUltras
    
 # Install server dependencies
 cd server && npm install
@@ -51,23 +50,29 @@ Open your browser and go to http://localhost:3000 to view the application.
 Open your browser and go to http://localhost:3001 to view the admin panel of application.
 
 ## Technologies Used
-Frontend:
+**Frontend:**
 
 React
 React Router
 Axios
-Backend:
+
+**Backend:**
 
 Node.js
 Express.js
 MongoDB (Atlas)
-Authentication:
+
+**Authentication:**
 
 JSON Web Tokens (JWT)
-Styling:
+
+**Styling:**
 
 CSS
 Bootstrap
+
+**Admin Panel:**
+AdminLTE
 
 ## Contributing
 Contributions are welcome! Feel free to open issues and pull requests.
