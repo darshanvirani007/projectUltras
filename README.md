@@ -29,7 +29,7 @@ Follow these steps to get the project up and running on your local machine:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/darshanvirani007/projectUltras.git
-   cd projectUltras
+   cd frontend
    
 # Install server dependencies
 cd server && npm install
@@ -47,6 +47,7 @@ cd server && npm start
 cd ../client && npm start
 
 Open your browser and go to http://localhost:3000 to view the application.
+
 Open your browser and go to http://localhost:3001 to view the admin panel of application.
 
 ## Technologies Used
@@ -72,6 +73,7 @@ CSS
 Bootstrap
 
 **Admin Panel:**
+
 AdminLTE
 
 ## Contributing
