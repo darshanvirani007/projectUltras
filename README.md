@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Project Ultras - Your Go-To T-shirt Shopping Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Ultras, a modern and user-friendly T-shirt selling website developed as a college project using the MERN (MongoDB, Express.js, React, Node.js) stack.
 
-## Available Scripts
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+Ultras is a dynamic e-commerce platform where users can explore, purchase, and even customize their favorite T-shirts. The website is designed with a clean and intuitive user interface, ensuring a seamless shopping experience for every user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Browse and Search:** Explore a wide range of trendy T-shirts and use the search functionality to find specific designs.
+- **User Authentication:** Create an account, log in, and enjoy a personalized shopping experience.
+- **Shopping Cart:** Add T-shirts to your cart, review your selections, and proceed to secure checkout.
+- **Customization:** Customize your T-shirts with various colors, sizes, and design options.
+- **Order History:** Keep track of your order history for easy reference.
+- **Responsive Design:** Enjoy a seamless experience on devices of all sizes.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to get the project up and running on your local machine:
 
-### `npm run build`
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/trendy-tees.git
+   cd trendy-tees
+   
+# Install server dependencies
+cd server && npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install client dependencies
+cd ../client && npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run the server
+cd server && npm start
 
-### `npm run eject`
+# Run the client (in a new terminal)
+cd ../client && npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open your browser and go to http://localhost:3000 to view the application.
+Open your browser and go to http://localhost:3001 to view the admin panel of application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
+Frontend:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React
+React Router
+Axios
+Backend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Node.js
+Express.js
+MongoDB (Atlas)
+Authentication:
 
-## Learn More
+JSON Web Tokens (JWT)
+Styling:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+CSS
+Bootstrap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! Feel free to open issues and pull requests.
